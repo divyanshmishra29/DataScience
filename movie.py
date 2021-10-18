@@ -61,7 +61,7 @@ Star Wars (1977)             584
 Contact (1997)               509
 Fargo (1996)                 508
 Return of the Jedi (1983)    507
-Liar Liar (1997)             485
+Liar Liar (1998)             485
 Name: rating, dtype: int64
 >>> ratings = pd.DataFrame(data.groupby('title')['rating'].mean())
 			       
